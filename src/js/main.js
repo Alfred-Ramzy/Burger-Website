@@ -19,37 +19,37 @@ function showTabContent(contentId, tabButton) {
 // ! Array Of Objects Menu
 const FoodBurger = [
   {
-    img: "/burger-1.png",
+    img: "img/burger-1.png",
     name: "Classic Cheeseburger",
     price: 145,
     pricebefore: 200,
   },
   {
-    img: "/burger-2.png",
+    img: "img/burger-2.png",
     name: "Bacon BBQ Burger",
     price: 234,
     pricebefore: 280,
   },
   {
-    img: "/burger-3.png",
+    img: "img/burger-3.png",
     name: "Mushroom Swiss Burger",
     price: 87,
     pricebefore: 150,
   },
   {
-    img: "/burger-4.png",
+    img: "img/burger-4.png",
     name: "Spicy Jalapeño Burger",
     price: 210,
     pricebefore: 260,
   },
   {
-    img: "/burger-5.png",
+    img: "img/burger-5.png",
     name: "Crispy Chicken Burger",
     price: 112,
     pricebefore: 160,
   },
   {
-    img: "/burger-6.png",
+    img: "img/burger-6.png",
     name: "Veggie Delight Burger",
     price: 273,
     pricebefore: 320,
@@ -57,37 +57,37 @@ const FoodBurger = [
 ];
 const FoodSnacks = [
   {
-    img: "/snack-1.png",
+    img: "img/snack-1.png",
     name: "Classic French Fries",
     price: 189,
     pricebefore: 240,
   },
   {
-    img: "/snack-2.png",
+    img: "img/snack-2.png",
     name: "Curly Fries",
     price: 259,
     pricebefore: 300,
   },
   {
-    img: "/snack-3.png",
+    img: "img/snack-3.png",
     name: "Sweet Potato Fries",
     price: 120,
     pricebefore: 150,
   },
   {
-    img: "/snack-4.png",
+    img: "img/snack-4.png",
     name: "Loaded Fries",
     price: 275,
     pricebefore: 320,
   },
   {
-    img: "/snack-5.png",
+    img: "img/snack-5.png",
     name: "Waffle Fries",
     price: 145,
     pricebefore: 180,
   },
   {
-    img: "/snack-6.png",
+    img: "img/snack-6.png",
     name: "Cheese Fries",
     price: 234,
     pricebefore: 270,
@@ -95,31 +95,31 @@ const FoodSnacks = [
 ];
 const FoodBeverage = [
   {
-    img: "/beverage-1.png",
+    img: "img/beverage-1.png",
     name: "Fresh Orange Juice",
     price: 198,
     pricebefore: 250,
   },
   {
-    img: "/beverage-2.png",
+    img: "img/beverage-2.png",
     name: "Strawberry Smoothie",
     price: 158,
     pricebefore: 200,
   },
   {
-    img: "/beverage-3.png",
+    img: "img/beverage-3.png",
     name: "Mango Tango",
     price: 299,
     pricebefore: 350,
   },
   {
-    img: "/beverage-4.png",
+    img: "img/beverage-4.png",
     name: "Green Detox Juice",
     price: 167,
     pricebefore: 220,
   },
   {
-    img: "/beverage-5.png",
+    img: "img/beverage-5.png",
     name: "Watermelon Cooler",
     price: 236,
     pricebefore: 280,
@@ -486,7 +486,7 @@ setTimeout(() => {
   Swal.fire({
     title: "Do Not Miss This Deal!",
     text: "Take The 50% Offer When You Buy 2 Burgers",
-    imageUrl: "..//burger and fries (2).jpg",
+    imageUrl: "img/burger and fries (2).jpg",
     imageWidth: 400,
     imageHeight: 200,
     imageAlt: "Custom image",
