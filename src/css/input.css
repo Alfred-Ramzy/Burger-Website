@@ -25,14 +25,17 @@
 ::-webkit-scrollbar {
     width: 8px;
 }
+
 ::-webkit-scrollbar-track {
     background: black;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #e1caca;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
@@ -41,14 +44,25 @@
     body {
         @apply bg-primaryColor text-whiteColor tracking-wide font-mysans dark:bg-darkColor;
     }
+
     .btn {
         @apply cursor-pointer px-8 py-4 hover:bg-secondaryColor transition-all duration-300 ease-in-out rounded-xl text-white font-bold;
     }
 }
 
-html {
+html,
+body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+@layer {
+
+    html,
+    body {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
 }
 
 @layer {
@@ -100,9 +114,9 @@ html {
         from {
             transform: translateY(0.1em);
         }
+
         to {
             transform: translateY(-0.1em);
         }
     }
 }
-
