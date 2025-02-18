@@ -19,37 +19,37 @@ function showTabContent(contentId, tabButton) {
 // ! Array Of Objects Menu
 const FoodBurger = [
   {
-    img: "../img/burger-1.png",
+    img: "/public/burger-1.png",
     name: "Classic Cheeseburger",
     price: 145,
     pricebefore: 200,
   },
   {
-    img: "../img/burger-2.png",
+    img: "/public/burger-2.png",
     name: "Bacon BBQ Burger",
     price: 234,
     pricebefore: 280,
   },
   {
-    img: "../img/burger-3.png",
+    img: "/public/burger-3.png",
     name: "Mushroom Swiss Burger",
     price: 87,
     pricebefore: 150,
   },
   {
-    img: "../img/burger-4.png",
+    img: "/public/burger-4.png",
     name: "Spicy Jalapeño Burger",
     price: 210,
     pricebefore: 260,
   },
   {
-    img: "../img/burger-5.png",
+    img: "/public/burger-5.png",
     name: "Crispy Chicken Burger",
     price: 112,
     pricebefore: 160,
   },
   {
-    img: "../img/burger-6.png",
+    img: "/public/burger-6.png",
     name: "Veggie Delight Burger",
     price: 273,
     pricebefore: 320,
@@ -57,37 +57,37 @@ const FoodBurger = [
 ];
 const FoodSnacks = [
   {
-    img: "../img/snack-1.png",
+    img: "/public/snack-1.png",
     name: "Classic French Fries",
     price: 189,
     pricebefore: 240,
   },
   {
-    img: "../img/snack-2.png",
+    img: "/public/snack-2.png",
     name: "Curly Fries",
     price: 259,
     pricebefore: 300,
   },
   {
-    img: "../img/snack-3.png",
+    img: "/public/snack-3.png",
     name: "Sweet Potato Fries",
     price: 120,
     pricebefore: 150,
   },
   {
-    img: "../img/snack-4.png",
+    img: "/public/snack-4.png",
     name: "Loaded Fries",
     price: 275,
     pricebefore: 320,
   },
   {
-    img: "../img/snack-5.png",
+    img: "/public/snack-5.png",
     name: "Waffle Fries",
     price: 145,
     pricebefore: 180,
   },
   {
-    img: "../img/snack-6.png",
+    img: "/public/snack-6.png",
     name: "Cheese Fries",
     price: 234,
     pricebefore: 270,
@@ -95,31 +95,31 @@ const FoodSnacks = [
 ];
 const FoodBeverage = [
   {
-    img: "../img/beverage-1.png",
+    img: "/public/beverage-1.png",
     name: "Fresh Orange Juice",
     price: 198,
     pricebefore: 250,
   },
   {
-    img: "../img/beverage-2.png",
+    img: "/public/beverage-2.png",
     name: "Strawberry Smoothie",
     price: 158,
     pricebefore: 200,
   },
   {
-    img: "../img/beverage-3.png",
+    img: "/public/beverage-3.png",
     name: "Mango Tango",
     price: 299,
     pricebefore: 350,
   },
   {
-    img: "../img/beverage-4.png",
+    img: "/public/beverage-4.png",
     name: "Green Detox Juice",
     price: 167,
     pricebefore: 220,
   },
   {
-    img: "../img/beverage-5.png",
+    img: "/public/beverage-5.png",
     name: "Watermelon Cooler",
     price: 236,
     pricebefore: 280,
@@ -147,7 +147,7 @@ Myfood.addEventListener("click", () => {
               <img
                 src="${FoodBurger[i].img}"
                 class="w-44 absolute top-1/2 left-1/2 -translate-1/2"
-                alt="${FoodBurger[i].img.split("../img/").at(1)}" />
+                alt="${FoodBurger[i].img.split("/public/").at(1)}" />
             </div>
             <h3 class="text-xl font-bold font-myoswald my-4">
               ${FoodBurger[i].name}
@@ -181,7 +181,7 @@ Mybeverage.addEventListener("click", () => {
               <img
                 src="${FoodBeverage[i].img}"
                 class="w-44 absolute top-1/2 left-1/2 -translate-1/2"
-                alt="${FoodBeverage[i].img.split("../img/").at(1)}" />
+                alt="${FoodBeverage[i].img.split("/public/").at(1)}" />
             </div>
             <h3 class="text-xl font-bold font-myoswald my-4">
               ${FoodBeverage[i].name}
@@ -216,7 +216,7 @@ Mysnack.addEventListener("click", () => {
               <img
                 src="${FoodSnacks[i].img}"
                 class="w-44 absolute top-1/2 left-1/2 -translate-1/2"
-                alt="${FoodSnacks[i].img.split("../img/").at(1)}" />
+                alt="${FoodSnacks[i].img.split("/public/").at(1)}" />
             </div>
             <h3 class="text-xl font-bold font-myoswald my-4">
               ${FoodSnacks[i].name}
@@ -256,7 +256,7 @@ Myall.addEventListener("click", () => {
               <img
                 src="${Myshuffle[i].img}"
                 class="w-44 absolute top-1/2 left-1/2 -translate-1/2"
-                alt="${Myshuffle[i].img.split("../img/").at(1)}" />
+                alt="${Myshuffle[i].img.split("/public/").at(1)}" />
             </div>
             <h3 class="text-xl font-bold font-myoswald my-4">
               ${Myshuffle[i].name}
@@ -298,7 +298,7 @@ window.addEventListener("load", () => {
               <img
                 src="${Myshuffle[i].img}"
                 class="w-44 absolute top-1/2 left-1/2 -translate-1/2"
-                alt="${Myshuffle[i].img.split("../img/").at(1)}" />
+                alt="${Myshuffle[i].img.split("/public/").at(1)}" />
             </div>
             <h3 class="text-xl font-bold font-myoswald my-4">
               ${Myshuffle[i].name}
@@ -486,7 +486,7 @@ setTimeout(() => {
   Swal.fire({
     title: "Do Not Miss This Deal!",
     text: "Take The 50% Offer When You Buy 2 Burgers",
-    imageUrl: "../../img/burger and fries (2).jpg",
+    imageUrl: "..//public/burger and fries (2).jpg",
     imageWidth: 400,
     imageHeight: 200,
     imageAlt: "Custom image",
