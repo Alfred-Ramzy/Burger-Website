@@ -490,6 +490,9 @@ setTimeout(() => {
     imageWidth: 400,
     imageHeight: 200,
     imageAlt: "Custom image",
+    customClass: {
+      confirmButton: "btn-confirm",
+    },
   });
 }, 9000);
 
@@ -506,13 +509,18 @@ mybtn2.addEventListener("click", (e) => {
       icon: "error",
       title: "Oops...",
       text: "You Entered An Valid Email | Please Try Again",
-
+      customClass: {
+        confirmButton: "btn-confirm",
+      },
     });
   } else {
     Swal.fire({
       icon: "success",
       title: "Well Done",
       text: "The Email Was Sent Successfully",
+      customClass: {
+        confirmButton: "btn-confirm",
+      },
     });
   }
 });
