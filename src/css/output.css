@@ -1810,7 +1810,7 @@ div:where(.swal2-container).swal2-center>.swal2-popup {
 }
 .btn-confirm {
   margin: .3125em;
-  padding: 0.625em 8.7em;
+  padding: 0.625em 8em;
   font-weight: 800;
   border-radius: 0.7em;
   box-shadow: 0;
